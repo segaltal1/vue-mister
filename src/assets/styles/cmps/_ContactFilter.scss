@@ -1,0 +1,19 @@
+.contact-filter {
+    .search {
+        width: 300px;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: unset;
+        background: #00000061;
+        color: whitesmoke;
+        outline: 1px solid transparent;
+        transition: 0.4s outline ease-in-out;
+        &:focus-visible {
+            outline: 1px solid #d6c8c8;
+        }
+        &::placeholder {
+            color: whitesmoke;
+            padding-inline:5px ;
+        }
+    }
+}

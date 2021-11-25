@@ -1,0 +1,53 @@
+.contact-details {
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  @include for-mobile-layout{
+    align-items: unset;
+  }
+  .links-container {
+    gap: 12rem;
+    img {
+      height: 2.2rem;
+      width: 2.2rem;
+    }
+  }
+  .card {
+    gap: 1.7rem;
+    img {
+      height: 75px;
+      width: 75px;
+      border-radius: 10px;
+    }
+    strong {
+      padding-right: 10px;
+    }
+  }
+  .transfer-money {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10 px);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #333;
+    form > * {
+      height: 30px;
+    }
+    input {
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 1px solid #0c0c0c69;
+      &:focus-visible {
+        outline: 1.5px solid #686161;
+      }
+    }
+    button {
+      background-color: #99201c;
+      background-image: linear-gradient(316deg, #99201c 0%, #f56545 74%);
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 10px;
+      color: white;
+     
+    }
+  }
+}

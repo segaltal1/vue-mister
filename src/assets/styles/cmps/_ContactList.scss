@@ -1,0 +1,15 @@
+.contact-list {
+    padding: 1px;
+
+    .add-btn {
+        background: white;
+        border-radius: 50%;
+        position: fixed;
+        right: 4%;
+        bottom: 10%;
+        height: 3.5rem;
+        width: 3.5rem;
+        z-index: 2;
+        cursor: pointer;
+    }
+}

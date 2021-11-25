@@ -1,0 +1,18 @@
+.contact-preview {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #333;
+    width: 300px;
+    .preview-contect {
+        gap: 2.5rem;
+        img {
+            border-radius: 50%;
+            height: 32px;
+            width: 32px;
+            border: 1px solid white;
+        }
+    }
+}

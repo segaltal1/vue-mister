@@ -1,0 +1,43 @@
+.app-home {
+    padding: 2rem;
+    padding-top: 2rem;
+    color: whitesmoke;
+    gap: 1.4rem;
+    // height: 88vh;
+    // justify-content: space-evenly;
+    h1 {
+        font-size: 2.2rem;
+    }
+    h3 {
+        font-size: 1.7rem;
+    }
+    .icon {
+        height: 38px;
+        width: 38px;
+    }
+    .contact-btn {
+        align-self: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        opacity: 0.7;
+        padding: 0.55rem;
+        border-radius: 10px;
+        background: red;
+        cursor: pointer;
+        a {
+            font-size: 1.4rem;
+            color: white;
+        }
+        img {
+            filter: brightness(0) invert(1);
+        }
+    }
+    .coins{
+
+        padding-inline-end: 6.5rem;
+        @include for-mobile-layout{
+            padding-inline-end: 0;
+            // align-self: flex-start;
+        }
+    }
+}

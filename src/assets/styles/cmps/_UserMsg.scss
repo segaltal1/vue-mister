@@ -1,0 +1,50 @@
+.user-msg {
+    position: fixed;
+    top: -2rem;
+    right: 10px;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 10px;
+    color: whitesmoke;
+
+    h6 {
+        font-size: 1.4rem;
+    }
+    &.open {
+        top: 10px;
+        transition: top 0.5s;
+    }
+    &.success {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: #378b29;
+        background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+        .slider {
+            display: block;
+            left: 0;
+            width: 100%;
+            margin: 0 auto;
+            height: 2px;
+            background-color: whitesmoke;
+            // transition: width 0;
+            // width: 0%;   
+           animation: out 2s ;
+        }
+    }
+    &.danger {
+        background-color: #eb4511;
+        background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+    }
+
+   
+}
+
+@keyframes out {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
